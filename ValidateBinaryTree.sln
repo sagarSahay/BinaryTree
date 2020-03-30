@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateBinaryTree", "ValidateBinaryTree\ValidateBinaryTree.csproj", "{E2838B07-B410-4B0A-82C4-5EDCD917D576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateBinaryTree.Tests", "ValidateBinaryTree.Tests\ValidateBinaryTree.Tests.csproj", "{F408EC67-00F3-488B-A078-3EB9DF7A5949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{377FAA76-5B68-46C3-9B1B-57D3DFA84337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricBinaryTree", "SymmetricBinaryTree\SymmetricBinaryTree.csproj", "{B4F13117-C323-464E-BD13-A9608FE9B989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricBinaryTree.Tests", "SymmetricBinaryTree.Tests\SymmetricBinaryTree.Tests.csproj", "{B6E6B0A1-3771-4B7F-AE37-0607D329012D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigzagLevelOrder", "ZigzagLevelOrder\ZigzagLevelOrder.csproj", "{4BCE2517-9C83-4B6E-A84D-B985E37ED39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigzagLevelOrder.Tests", "ZigzagLevelOrder.Tests\ZigzagLevelOrder.Tests.csproj", "{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2838B07-B410-4B0A-82C4-5EDCD917D576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2838B07-B410-4B0A-82C4-5EDCD917D576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2838B07-B410-4B0A-82C4-5EDCD917D576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2838B07-B410-4B0A-82C4-5EDCD917D576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F408EC67-00F3-488B-A078-3EB9DF7A5949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F408EC67-00F3-488B-A078-3EB9DF7A5949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F408EC67-00F3-488B-A078-3EB9DF7A5949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F408EC67-00F3-488B-A078-3EB9DF7A5949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377FAA76-5B68-46C3-9B1B-57D3DFA84337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377FAA76-5B68-46C3-9B1B-57D3DFA84337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377FAA76-5B68-46C3-9B1B-57D3DFA84337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377FAA76-5B68-46C3-9B1B-57D3DFA84337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F13117-C323-464E-BD13-A9608FE9B989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F13117-C323-464E-BD13-A9608FE9B989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F13117-C323-464E-BD13-A9608FE9B989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F13117-C323-464E-BD13-A9608FE9B989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E6B0A1-3771-4B7F-AE37-0607D329012D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E6B0A1-3771-4B7F-AE37-0607D329012D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E6B0A1-3771-4B7F-AE37-0607D329012D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E6B0A1-3771-4B7F-AE37-0607D329012D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCE2517-9C83-4B6E-A84D-B985E37ED39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCE2517-9C83-4B6E-A84D-B985E37ED39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCE2517-9C83-4B6E-A84D-B985E37ED39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCE2517-9C83-4B6E-A84D-B985E37ED39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
