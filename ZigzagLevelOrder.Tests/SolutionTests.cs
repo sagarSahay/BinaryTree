@@ -1,3 +1,5 @@
+using FluentAssertions;
+
 namespace ZigzagLevelOrder.Tests
 {
     using ValidateBinaryTree;
@@ -22,7 +24,10 @@ namespace ZigzagLevelOrder.Tests
             var sut = new Solution();
             
             // Act
-            var 
+            var result = sut.ZigzagOrder(input);
+            
+            // Assert
+            result[0].Should().BeEquivalentTo(new[] {3});
         }
     }
 }
