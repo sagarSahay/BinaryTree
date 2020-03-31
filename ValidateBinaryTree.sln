@@ -14,6 +14,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigzagLevelOrder", "ZigzagL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigzagLevelOrder.Tests", "ZigzagLevelOrder.Tests\ZigzagLevelOrder.Tests.csproj", "{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeMaximumSumPath", "BinaryTreeMaximumSumPath\BinaryTreeMaximumSumPath.csproj", "{DA0953DB-70CD-4719-A6F7-F2383BF68CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeMaximumSumPath.Tests", "BinaryTreeMaximumSumPath.Tests\BinaryTreeMaximumSumPath.Tests.csproj", "{8426031B-2C9F-49CA-8681-BF80DD9ED22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordLadder2", "WordLadder2\WordLadder2.csproj", "{12844730-1B98-421C-A617-81110781642B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordLadder2.Tests", "WordLadder2.Tests\WordLadder2.Tests.csproj", "{A1284388-742A-4483-9D93-E2DAAC1F1DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +56,21 @@ Global
 		{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B744D66-138C-40F2-A8FC-C92CB27F5CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0953DB-70CD-4719-A6F7-F2383BF68CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0953DB-70CD-4719-A6F7-F2383BF68CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0953DB-70CD-4719-A6F7-F2383BF68CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0953DB-70CD-4719-A6F7-F2383BF68CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8426031B-2C9F-49CA-8681-BF80DD9ED22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8426031B-2C9F-49CA-8681-BF80DD9ED22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8426031B-2C9F-49CA-8681-BF80DD9ED22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8426031B-2C9F-49CA-8681-BF80DD9ED22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12844730-1B98-421C-A617-81110781642B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12844730-1B98-421C-A617-81110781642B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12844730-1B98-421C-A617-81110781642B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12844730-1B98-421C-A617-81110781642B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1284388-742A-4483-9D93-E2DAAC1F1DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1284388-742A-4483-9D93-E2DAAC1F1DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1284388-742A-4483-9D93-E2DAAC1F1DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1284388-742A-4483-9D93-E2DAAC1F1DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
