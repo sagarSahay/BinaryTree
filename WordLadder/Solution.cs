@@ -3,6 +3,8 @@ using System.Linq;
 
 namespace WordLadder
 {
+    using System;
+
     public class Solution
     {
         public int LadderLength(string beginWord, string endWord, IList<string> wordList)
@@ -31,7 +33,28 @@ namespace WordLadder
             while (queue.Count > 0)
             {
                 var curr = queue.Dequeue();
+                var currDistance = distance[curr];
                 var currentNeighbours = GetNeighbours(curr, dict);
+                bool foundEnd = false;
+
+                foreach (var currentNeighbour in currentNeighbours)
+                {
+                    neighbours[curr].Add(currentNeighbour);
+                    if (!distance.ContainsKey(currentNeighbour))
+                    {
+                        distance.Add(currentNeighbour,0);
+                        if (currentNeighbour == endWord)
+                        {
+                            foundEnd = true;
+                        }
+                        else
+                        {
+                            queue.Enqueue(currentNeighbour);
+                        }
+                    }
+                }
+                
+                
             }
         }
 
@@ -42,11 +65,21 @@ namespace WordLadder
 
             for (char i = 'a'; i <= 'z'; i++)
             {
-                foreach (var word in dict)
+                for (int j = 0; j < chs.Length; j++)
                 {
-                    
+                    if (chs[j] == i) continue;
+                    var old_ch = chs[j];
+                    chs[j] = i;
+                    if (dict.Contains(new string(chs)))
+                    {
+                        result.Add(new string(chs));
+                    }
+
+                    chs[j] = old_ch;
                 }
             }
+
+            return result;
         }
     }
 }
