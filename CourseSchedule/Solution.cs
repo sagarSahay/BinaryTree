@@ -38,7 +38,9 @@ namespace CourseSchedule
             return true;
         }
 
-        private bool IsCyclic(int currCourse, Dictionary<int, LinkedList<int>> courseDict, bool[] path, bool[] check)
+        private bool IsCyclic(int currCourse, Dictionary<int, 
+            LinkedList<int>> courseDict,
+            bool[] path, bool[] check)
         {
             if (check[currCourse])
             {
@@ -55,16 +57,20 @@ namespace CourseSchedule
                 return false;
             }
 
-            foreach (var course in courseDict[currCourse])
+            path[currCourse] = true;
+            var ret = false;
+            foreach (var child in courseDict[currCourse])
             {
-                var res = IsCyclic(course, courseDict, path, check);
-                if (res)
+                ret = IsCyclic(child, courseDict, path, check);
+                if (ret)
                 {
-                    return false;
+                    break;
                 }
             }
 
-            path[currCourse] = true;
+            path[currCourse] = false;
+            check[currCourse] = true;
+            return ret;
         }
     }
 }

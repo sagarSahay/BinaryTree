@@ -12,8 +12,7 @@ namespace CourseSchedule.Tests
             // Arrange 
             var prerequisites = new[]
             {
-                new[] {1, 0},
-                new[] {0, 1}
+                new[] {1, 0}
             };
             var numberOfCourses = 2;
             
@@ -23,7 +22,7 @@ namespace CourseSchedule.Tests
             var res = sut.CanFinish(numberOfCourses, prerequisites);
             
             // Assert
-            res.Should().BeFalse();
+            res.Should().BeTrue();
         }
     }
 }
