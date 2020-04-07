@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule", "CourseSch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule.Tests", "CourseSchedule.Tests\CourseSchedule.Tests.csproj", "{B7F2821F-86B3-4A52-9562-9CD7D3B70399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule.TopologicalSort", "CourseSchedule.TopologicalSort\CourseSchedule.TopologicalSort.csproj", "{810B1EEB-3445-41B9-89FC-12E4F2FFC460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{B7F2821F-86B3-4A52-9562-9CD7D3B70399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F2821F-86B3-4A52-9562-9CD7D3B70399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F2821F-86B3-4A52-9562-9CD7D3B70399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810B1EEB-3445-41B9-89FC-12E4F2FFC460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810B1EEB-3445-41B9-89FC-12E4F2FFC460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810B1EEB-3445-41B9-89FC-12E4F2FFC460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810B1EEB-3445-41B9-89FC-12E4F2FFC460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

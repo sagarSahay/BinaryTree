@@ -15,6 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\CourseSchedule.TopologicalSort\CourseSchedule.TopologicalSort.csproj" />
       <ProjectReference Include="..\CourseSchedule\CourseSchedule.csproj" />
     </ItemGroup>
 
