@@ -36,6 +36,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule.Tests", "Cou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseSchedule.TopologicalSort", "CourseSchedule.TopologicalSort\CourseSchedule.TopologicalSort.csproj", "{810B1EEB-3445-41B9-89FC-12E4F2FFC460}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCA", "LCA\LCA.csproj", "{3F720B96-366D-4D5E-9886-F11789043916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCA.Tests", "LCA.Tests\LCA.Tests.csproj", "{BEF52D58-096F-4CC0-A7AF-FEB47F1EA583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiameterOfBinaryTree", "DiameterOfBinaryTree\DiameterOfBinaryTree.csproj", "{D13805E0-105D-4737-88EE-668A869ECFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiameterOfBinaryTree.Tests", "DiameterOfBinaryTree.Tests\DiameterOfBinaryTree.Tests.csproj", "{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +122,21 @@ Global
 		{810B1EEB-3445-41B9-89FC-12E4F2FFC460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810B1EEB-3445-41B9-89FC-12E4F2FFC460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{810B1EEB-3445-41B9-89FC-12E4F2FFC460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F720B96-366D-4D5E-9886-F11789043916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F720B96-366D-4D5E-9886-F11789043916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F720B96-366D-4D5E-9886-F11789043916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F720B96-366D-4D5E-9886-F11789043916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF52D58-096F-4CC0-A7AF-FEB47F1EA583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF52D58-096F-4CC0-A7AF-FEB47F1EA583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF52D58-096F-4CC0-A7AF-FEB47F1EA583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF52D58-096F-4CC0-A7AF-FEB47F1EA583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D13805E0-105D-4737-88EE-668A869ECFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13805E0-105D-4737-88EE-668A869ECFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13805E0-105D-4737-88EE-668A869ECFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13805E0-105D-4737-88EE-668A869ECFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

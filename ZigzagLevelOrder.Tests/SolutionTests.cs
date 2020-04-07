@@ -33,13 +33,13 @@ namespace ZigzagLevelOrder.Tests
             
             var input = new TreeNode(1)
             {
-                Right = new TreeNode(3)
+                right = new TreeNode(3)
                 {
-                    Right = new TreeNode(5)
+                    right = new TreeNode(5)
                 },
-                Left = new TreeNode(2)
+                left = new TreeNode(2)
                 {
-                    Left = new TreeNode(4)
+                    left = new TreeNode(4)
                 }
             };
             

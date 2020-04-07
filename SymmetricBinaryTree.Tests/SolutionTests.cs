@@ -12,15 +12,15 @@ namespace SymmetricBinaryTree.Tests
             // Arrange
             var node = new TreeNode(1)
             {
-                Left = new TreeNode(2)
+                left = new TreeNode(2)
                 {
-                    Left = new TreeNode(3),
-                    Right = new TreeNode(4)
+                    left = new TreeNode(3),
+                    right = new TreeNode(4)
                 },
-                Right = new TreeNode(2)
+                right = new TreeNode(2)
                 {
-                    Left = new TreeNode(4),
-                    Right = new TreeNode(3)
+                    left = new TreeNode(4),
+                    right = new TreeNode(3)
                 }
             };
             

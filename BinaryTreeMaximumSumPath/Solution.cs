@@ -19,12 +19,12 @@ namespace BinaryTreeMaximumSumPath
                 return 0;
             }
 
-            var leftGain = Math.Max(max_gain(input.Left), 0);
-            var rightGain = Math.Max(max_gain(input.Right), 0);
+            var leftGain = Math.Max(max_gain(input.left), 0);
+            var rightGain = Math.Max(max_gain(input.right), 0);
 
-            maxSum = Math.Max(input.Val + leftGain + rightGain, maxSum);
+            maxSum = Math.Max(input.val + leftGain + rightGain, maxSum);
 
-            return input.Val + Math.Max(leftGain, rightGain);
+            return input.val + Math.Max(leftGain, rightGain);
         }
     }
 }

@@ -19,7 +19,7 @@ namespace ZigzagLevelOrder
 
             var queue = new Queue<(TreeNode, int)>();
             queue.Enqueue((input, 0));
-            result.Add(new List<int>() {input.Val});
+            result.Add(new List<int>() {input.val});
             var flag = false;
            
             while (queue.Count > 0)
@@ -27,16 +27,16 @@ namespace ZigzagLevelOrder
                 var ls = new List<int>();
                 var (node, level) = queue.Dequeue();
                 level += 1;
-                if (node.Right != null)
+                if (node.right != null)
                 {
-                    ls.Add(node.Right.Val);
-                    queue.Enqueue((node.Right, level));
+                    ls.Add(node.right.val);
+                    queue.Enqueue((node.right, level));
                 }
 
-                if (node.Left != null)
+                if (node.left != null)
                 {
-                    ls.Add(node.Left.Val);
-                    queue.Enqueue((node.Left, level ));
+                    ls.Add(node.left.val);
+                    queue.Enqueue((node.left, level ));
                 }
 
                 if (ls.Count > 0)

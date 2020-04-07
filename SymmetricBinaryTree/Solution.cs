@@ -6,22 +6,22 @@ namespace SymmetricBinaryTree
     {
         public bool IsSymmetric(TreeNode root)
         {
-            return root == null || IsSymmetric(root.Left, root.Right);
+            return root == null || IsSymmetric(root.left, root.right);
         }
 
         private bool IsSymmetric(TreeNode left, TreeNode right)
         {
             bool flag = left == null && right == null;
 
-            if (left != null && right != null && left.Val != right.Val)
+            if (left != null && right != null && left.val != right.val)
             {
                 flag = false;
             }
 
             if (left != null && right != null)
             {
-                return (left.Val == right.Val) && IsSymmetric(left.Right, right.Left)
-                                               && IsSymmetric(left.Left, right.Right);
+                return (left.val == right.val) && IsSymmetric(left.right, right.left)
+                                               && IsSymmetric(left.left, right.right);
             }
 
             return flag;

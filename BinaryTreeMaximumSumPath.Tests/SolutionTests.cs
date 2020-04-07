@@ -12,12 +12,12 @@ namespace BinaryTreeMaximumSumPath.Tests
             // Arrange
             var input = new TreeNode(-10)
             {
-                Right = new TreeNode(20)
+                right = new TreeNode(20)
                 {
-                    Left = new TreeNode(15),
-                    Right = new TreeNode(7)
+                    left = new TreeNode(15),
+                    right = new TreeNode(7)
                 },
-                Left = new TreeNode(9)
+                left = new TreeNode(9)
             };
             
             var sut= new Solution();

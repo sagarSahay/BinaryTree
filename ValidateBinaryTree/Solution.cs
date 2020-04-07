@@ -14,13 +14,13 @@ namespace ValidateBinaryTree
                 return true;
             }
 
-            if (node.Val >= maxVal || node.Val <= minVal)
+            if (node.val >= maxVal || node.val <= minVal)
             {
                 return false;
             }
 
-            return IsValidBST(node.Right, node.Val, maxVal)
-                   && IsValidBST(node.Left, minVal, node.Val);
+            return IsValidBST(node.right, node.val, maxVal)
+                   && IsValidBST(node.left, minVal, node.val);
         }
     }
 }

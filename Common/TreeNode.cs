@@ -4,12 +4,12 @@ namespace ValidateBinaryTree
     {
         public TreeNode(int val)
         {
-            Val = val;
+            this.val = val;
         }
 
-        public int Val { get; set; }
-        public TreeNode Left { get; set; }
-        public TreeNode Right { get; set; }
+        public int val { get; set; }
+        public TreeNode left { get; set; }
+        public TreeNode right { get; set; }
         
     }
 }
