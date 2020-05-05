@@ -11,15 +11,15 @@ namespace ZigzagLevelOrder.Tests
         public void ZigzagLevelOrder_WhenGivenInput_ReturnsZigzagLevelOrder()
         {
             // Arrange
-            // var input = new TreeNode(3)
-            // {
-            //     Left = new TreeNode(9),
-            //     Right = new TreeNode(20)
-            //     {
-            //         Left = new TreeNode(15),
-            //         Right = new TreeNode(7)
-            //     }
-            // };
+            var input = new TreeNode(3)
+            {
+                left = new TreeNode(9),
+                right = new TreeNode(20)
+                {
+                    left = new TreeNode(15),
+                    right = new TreeNode(7)
+                }
+            };
             
             // var input = new TreeNode(1)
             // {
@@ -31,17 +31,17 @@ namespace ZigzagLevelOrder.Tests
             //     Right = new TreeNode(3)
             // };
             
-            var input = new TreeNode(1)
-            {
-                right = new TreeNode(3)
-                {
-                    right = new TreeNode(5)
-                },
-                left = new TreeNode(2)
-                {
-                    left = new TreeNode(4)
-                }
-            };
+            // var input = new TreeNode(1)
+            // {
+            //     right = new TreeNode(3)
+            //     {
+            //         right = new TreeNode(5)
+            //     },
+            //     left = new TreeNode(2)
+            //     {
+            //         left = new TreeNode(4)
+            //     }
+            // };
             
             var sut = new Solution();
             

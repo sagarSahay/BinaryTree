@@ -44,6 +44,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiameterOfBinaryTree", "Dia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiameterOfBinaryTree.Tests", "DiameterOfBinaryTree.Tests\DiameterOfBinaryTree.Tests.csproj", "{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsGraphBipartite", "IsGraphBipartite\IsGraphBipartite.csproj", "{B28652D6-BCB2-477A-AC65-5DA7BFCF2AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsGraphBipartite.Tests", "IsGraphBipartite.Tests\IsGraphBipartite.Tests.csproj", "{6246CD43-1207-44B5-8449-4393D1C07846}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -138,5 +142,13 @@ Global
 		{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3229FFA-5BCA-481A-BE2E-E3DDF4D8D032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28652D6-BCB2-477A-AC65-5DA7BFCF2AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28652D6-BCB2-477A-AC65-5DA7BFCF2AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28652D6-BCB2-477A-AC65-5DA7BFCF2AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28652D6-BCB2-477A-AC65-5DA7BFCF2AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6246CD43-1207-44B5-8449-4393D1C07846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6246CD43-1207-44B5-8449-4393D1C07846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6246CD43-1207-44B5-8449-4393D1C07846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6246CD43-1207-44B5-8449-4393D1C07846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
